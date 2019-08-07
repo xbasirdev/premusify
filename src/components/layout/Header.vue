@@ -5,7 +5,7 @@
                 <div class="container">
                     <div class="navbar-start">
                         <div class="navbar-item">
-                            <strong>Platzi Music</strong>
+                            <strong>PreMusify</strong>
                         </div>
                     </div>
                     <div class="navbar-end .navbar-menu">
@@ -18,8 +18,8 @@
 
         <div class="hero-body">
             <div class="container has-text-centered">
-                <h1 class="title">Platzi Music</h1>
-                <h2 class="subtitle">Busca tus canciones!</h2>
+                <h1 class="title">PreMusify</h1>
+                <h2 class="subtitle">Busca canciones <stron class="has-text-dark">Vue</stron>nísimas</h2>
                 <pm-player></pm-player>
             </div>
         </div>

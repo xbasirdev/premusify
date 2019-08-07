@@ -3,3 +3,9 @@
 html{
 	color: black;
 }
+
+.navbar-item{
+	&:focus{
+		color: #000000 !important;
+	}
+}
