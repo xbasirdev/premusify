@@ -1,23 +1,34 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <pm-header></pm-header>
+
+    <router-view></router-view>
+
+    <pm-footer> </pm-footer>
   </div>
 </template>
 
 <script>
+
+import PmFooter from '@/components/layout/Footer.vue'
+import PmHeader from '@/components/layout/Header.vue'
+
 export default {
-  name: 'App'
+  name: 'app',
+  components: { PmFooter, PmHeader }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
+
+<style lang="scss">
+  @import './scss/main.scss';
+
+  .results{
+    margin-top: 50px;
+  }
+
+  .is-active{
+    border: 3px #23d160 solid;
+  }
 </style>
