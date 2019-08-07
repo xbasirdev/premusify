@@ -2,6 +2,8 @@
 > App desarrollada con Vue.js con el fin de poner en práctica las virtudes de este framework.
 > PreMusify permite buscar canciones con la api de Spotify, ver más información sobre estas y escuchar una parte de esta.
 
+[Demo de la aplicación](https://premusify.herokuapp.com/).
+
 ## Build Setup
 
 ``` bash
