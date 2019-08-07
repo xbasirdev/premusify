@@ -1,6 +1,6 @@
-# heroku-prueba
-
-> prueba de deploy en heroku. vue app
+# PreMusify
+> App desarrollada con Vue.js con el fin de poner en práctica las virtudes de este framework.
+> PreMusify permite buscar canciones con la api de Spotify, ver más información sobre estas y escuchar una parte de esta.
 
 ## Build Setup
 
@@ -13,9 +13,6 @@ npm run dev
 
 # build for production with minification
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
