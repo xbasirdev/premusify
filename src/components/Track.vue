@@ -7,7 +7,7 @@
         </div>
 
         <div class="card-contend">
-            <div class="media">
+            <div class="media has-background-grey-lighter">
                 <div class="media-left">
                     <figure class="image is-48x48">
                         <img v-bind:src="track.album.images[0].url">
@@ -36,7 +36,7 @@
 
                         <button class="level-item button is-warning">
                             <span class="icon is-small " v-on:click="goToTrack(track.id)" >
-                                Más
+                                Detalles
                             </span>
                         </button>
                     </div>
@@ -74,6 +74,7 @@ export default {
 
 <style lang="scss" scoped>
     .level-item{
-        padding: 10px 20px;
+        padding: 5px 25px;
     }
+
 </style>

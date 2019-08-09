@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer">
+    <footer class="footer has-background-white-ter">
         <div class="container">
             <div class="content has-text-centered">
                 <p>Todos los derechos reservados</p>

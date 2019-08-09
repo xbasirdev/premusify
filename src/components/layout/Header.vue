@@ -5,7 +5,7 @@
                 <div class="container">
                     <div class="navbar-start">
                         <div class="navbar-item">
-                            <strong>PreMusify</strong>
+                            <a href="/"><strong class="main-title-color">PreMusify</strong></a>
                         </div>
                     </div>
                     <div class="navbar-end .navbar-menu">

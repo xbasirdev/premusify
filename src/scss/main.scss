@@ -9,3 +9,25 @@ html{
 		color: #000000 !important;
 	}
 }
+
+.main-title-color{
+	color: #ffffff !important;
+}
+
+.move-enter-active, .move-leave-active{
+	transform: translateX(0);
+	transition: all .3s linear;
+}
+
+.move-enter, .move-leave-to {
+	transform: translateX(100%);
+}
+
+.fade-enter-active, .fade-leave-active {
+	transform: scale(1);
+	transition: all .8s linear;
+}
+
+.fade-enter, .fade-leave-to {
+	transform: scale(0);
+}

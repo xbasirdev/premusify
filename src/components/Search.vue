@@ -1,17 +1,18 @@
 <template>
   <main>
-    <pm-notification v-show="showNotification" v-bind:typeNotification="hasData">
-      <p slot="body" v-if="hasData">No se encontraron resultados</p>
-      <p slot="body" v-else>{{ searchMessage }}</p>
-    </pm-notification>
+    <transition name="move">
+      <pm-notification v-show="showNotification" v-bind:typeNotification="hasData">
+        <p slot="body" v-if="hasData">No se encontraron resultados</p>
+        <p slot="body" v-else>{{ searchMessage }}</p>
+      </pm-notification>
+    </transition>
     <pm-loader v-show="isLoading"></pm-loader>
     <section class="section" v-show="!isLoading">
       <nav class="nav">
-        <div class="container">
+        <div class="container has-text-right">
           <input class="input is-large" type="text" placeholder="Buscar Canciones" v-model="searchQuery" v-on:keyup.enter="search">
 
-          <a class="button is-info is-large" v-on:click="search">Buscar</a>
-          <a class="button is-danger is-large">&times</a>
+          <a class="button is-info is-large search-btn" v-on:click="search">Buscar</a>
         </div>
       </nav>
 
@@ -104,5 +105,9 @@ export default {
 
   .is-active{
     border: 3px #23d160 solid;
+  }
+
+  .search-btn{
+    margin-top: 10px;
   }
 </style>
