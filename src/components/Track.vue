@@ -25,7 +25,7 @@
             </div>
 
              <div class="content has-text-centered">
-                <small>{{ track.duration_ms | ms-to-mm }}</small>
+                <small>Duración: {{ track.duration_ms | ms-to-mm }}</small>
                 <nav class="level">
                     <div class="level-item has-text-centered">
                         <button class="level-item button is-primary">
@@ -75,6 +75,7 @@ export default {
 <style lang="scss" scoped>
     .level-item{
         padding: 5px 25px;
+        margin: 0px 5px;
     }
 
 </style>
